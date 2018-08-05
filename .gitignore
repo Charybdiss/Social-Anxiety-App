@@ -1,0 +1,3 @@
+# Types of files that should not be under version control.
+
+._*
