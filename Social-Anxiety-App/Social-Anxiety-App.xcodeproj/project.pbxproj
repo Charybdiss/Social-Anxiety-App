@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B48D3BCA2116A60A00D27A1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48D3BC92116A60A00D27A1D /* AppDelegate.swift */; };
+		B48D3BCC2116A60A00D27A1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48D3BCB2116A60A00D27A1D /* ViewController.swift */; };
+		B48D3BCF2116A60B00D27A1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48D3BCD2116A60A00D27A1D /* Main.storyboard */; };
+		B48D3BD22116A60B00D27A1D /* Social_Anxiety_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B48D3BD02116A60B00D27A1D /* Social_Anxiety_App.xcdatamodeld */; };
+		B48D3BD42116A60F00D27A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48D3BD32116A60F00D27A1D /* Assets.xcassets */; };
+		B48D3BD72116A60F00D27A1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48D3BD52116A60F00D27A1D /* LaunchScreen.storyboard */; };
+		B48D3BE22116A61000D27A1D /* Social_Anxiety_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48D3BE12116A61000D27A1D /* Social_Anxiety_AppTests.swift */; };
+		B48D3BED2116A61000D27A1D /* Social_Anxiety_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48D3BEC2116A61000D27A1D /* Social_Anxiety_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B48D3BDE2116A61000D27A1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B48D3BBE2116A60A00D27A1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B48D3BC52116A60A00D27A1D;
+			remoteInfo = "Social-Anxiety-App";
+		};
+		B48D3BE92116A61000D27A1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B48D3BBE2116A60A00D27A1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B48D3BC52116A60A00D27A1D;
+			remoteInfo = "Social-Anxiety-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B48D3BC62116A60A00D27A1D /* Social-Anxiety-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social-Anxiety-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48D3BC92116A60A00D27A1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B48D3BCB2116A60A00D27A1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B48D3BCE2116A60A00D27A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B48D3BD12116A60B00D27A1D /* Social_Anxiety_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Social_Anxiety_App.xcdatamodel; sourceTree = "<group>"; };
+		B48D3BD32116A60F00D27A1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B48D3BD62116A60F00D27A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B48D3BD82116A61000D27A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48D3BDD2116A61000D27A1D /* Social-Anxiety-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Social-Anxiety-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48D3BE12116A61000D27A1D /* Social_Anxiety_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social_Anxiety_AppTests.swift; sourceTree = "<group>"; };
+		B48D3BE32116A61000D27A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48D3BE82116A61000D27A1D /* Social-Anxiety-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Social-Anxiety-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48D3BEC2116A61000D27A1D /* Social_Anxiety_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social_Anxiety_AppUITests.swift; sourceTree = "<group>"; };
+		B48D3BEE2116A61000D27A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B48D3BC32116A60A00D27A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48D3BDA2116A61000D27A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48D3BE52116A61000D27A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B48D3BBD2116A60A00D27A1D = {
+			isa = PBXGroup;
+			children = (
+				B48D3BC82116A60A00D27A1D /* Social-Anxiety-App */,
+				B48D3BE02116A61000D27A1D /* Social-Anxiety-AppTests */,
+				B48D3BEB2116A61000D27A1D /* Social-Anxiety-AppUITests */,
+				B48D3BC72116A60A00D27A1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B48D3BC72116A60A00D27A1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B48D3BC62116A60A00D27A1D /* Social-Anxiety-App.app */,
+				B48D3BDD2116A61000D27A1D /* Social-Anxiety-AppTests.xctest */,
+				B48D3BE82116A61000D27A1D /* Social-Anxiety-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B48D3BC82116A60A00D27A1D /* Social-Anxiety-App */ = {
+			isa = PBXGroup;
+			children = (
+				B48D3BC92116A60A00D27A1D /* AppDelegate.swift */,
+				B48D3BCB2116A60A00D27A1D /* ViewController.swift */,
+				B48D3BCD2116A60A00D27A1D /* Main.storyboard */,
+				B48D3BD32116A60F00D27A1D /* Assets.xcassets */,
+				B48D3BD52116A60F00D27A1D /* LaunchScreen.storyboard */,
+				B48D3BD82116A61000D27A1D /* Info.plist */,
+				B48D3BD02116A60B00D27A1D /* Social_Anxiety_App.xcdatamodeld */,
+			);
+			path = "Social-Anxiety-App";
+			sourceTree = "<group>";
+		};
+		B48D3BE02116A61000D27A1D /* Social-Anxiety-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B48D3BE12116A61000D27A1D /* Social_Anxiety_AppTests.swift */,
+				B48D3BE32116A61000D27A1D /* Info.plist */,
+			);
+			path = "Social-Anxiety-AppTests";
+			sourceTree = "<group>";
+		};
+		B48D3BEB2116A61000D27A1D /* Social-Anxiety-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B48D3BEC2116A61000D27A1D /* Social_Anxiety_AppUITests.swift */,
+				B48D3BEE2116A61000D27A1D /* Info.plist */,
+			);
+			path = "Social-Anxiety-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B48D3BC52116A60A00D27A1D /* Social-Anxiety-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48D3BF12116A61000D27A1D /* Build configuration list for PBXNativeTarget "Social-Anxiety-App" */;
+			buildPhases = (
+				B48D3BC22116A60A00D27A1D /* Sources */,
+				B48D3BC32116A60A00D27A1D /* Frameworks */,
+				B48D3BC42116A60A00D27A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Social-Anxiety-App";
+			productName = "Social-Anxiety-App";
+			productReference = B48D3BC62116A60A00D27A1D /* Social-Anxiety-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B48D3BDC2116A61000D27A1D /* Social-Anxiety-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48D3BF42116A61000D27A1D /* Build configuration list for PBXNativeTarget "Social-Anxiety-AppTests" */;
+			buildPhases = (
+				B48D3BD92116A61000D27A1D /* Sources */,
+				B48D3BDA2116A61000D27A1D /* Frameworks */,
+				B48D3BDB2116A61000D27A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B48D3BDF2116A61000D27A1D /* PBXTargetDependency */,
+			);
+			name = "Social-Anxiety-AppTests";
+			productName = "Social-Anxiety-AppTests";
+			productReference = B48D3BDD2116A61000D27A1D /* Social-Anxiety-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B48D3BE72116A61000D27A1D /* Social-Anxiety-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48D3BF72116A61000D27A1D /* Build configuration list for PBXNativeTarget "Social-Anxiety-AppUITests" */;
+			buildPhases = (
+				B48D3BE42116A61000D27A1D /* Sources */,
+				B48D3BE52116A61000D27A1D /* Frameworks */,
+				B48D3BE62116A61000D27A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B48D3BEA2116A61000D27A1D /* PBXTargetDependency */,
+			);
+			name = "Social-Anxiety-AppUITests";
+			productName = "Social-Anxiety-AppUITests";
+			productReference = B48D3BE82116A61000D27A1D /* Social-Anxiety-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B48D3BBE2116A60A00D27A1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Nathan Laing";
+				TargetAttributes = {
+					B48D3BC52116A60A00D27A1D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					B48D3BDC2116A61000D27A1D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B48D3BC52116A60A00D27A1D;
+					};
+					B48D3BE72116A61000D27A1D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B48D3BC52116A60A00D27A1D;
+					};
+				};
+			};
+			buildConfigurationList = B48D3BC12116A60A00D27A1D /* Build configuration list for PBXProject "Social-Anxiety-App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B48D3BBD2116A60A00D27A1D;
+			productRefGroup = B48D3BC72116A60A00D27A1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B48D3BC52116A60A00D27A1D /* Social-Anxiety-App */,
+				B48D3BDC2116A61000D27A1D /* Social-Anxiety-AppTests */,
+				B48D3BE72116A61000D27A1D /* Social-Anxiety-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B48D3BC42116A60A00D27A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48D3BD72116A60F00D27A1D /* LaunchScreen.storyboard in Resources */,
+				B48D3BD42116A60F00D27A1D /* Assets.xcassets in Resources */,
+				B48D3BCF2116A60B00D27A1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48D3BDB2116A61000D27A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48D3BE62116A61000D27A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B48D3BC22116A60A00D27A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48D3BCC2116A60A00D27A1D /* ViewController.swift in Sources */,
+				B48D3BD22116A60B00D27A1D /* Social_Anxiety_App.xcdatamodeld in Sources */,
+				B48D3BCA2116A60A00D27A1D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48D3BD92116A61000D27A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48D3BE22116A61000D27A1D /* Social_Anxiety_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48D3BE42116A61000D27A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48D3BED2116A61000D27A1D /* Social_Anxiety_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B48D3BDF2116A61000D27A1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B48D3BC52116A60A00D27A1D /* Social-Anxiety-App */;
+			targetProxy = B48D3BDE2116A61000D27A1D /* PBXContainerItemProxy */;
+		};
+		B48D3BEA2116A61000D27A1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B48D3BC52116A60A00D27A1D /* Social-Anxiety-App */;
+			targetProxy = B48D3BE92116A61000D27A1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B48D3BCD2116A60A00D27A1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B48D3BCE2116A60A00D27A1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B48D3BD52116A60F00D27A1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B48D3BD62116A60F00D27A1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B48D3BEF2116A61000D27A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B48D3BF02116A61000D27A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B48D3BF22116A61000D27A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Social-Anxiety-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "COSC345.Social-Anxiety-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B48D3BF32116A61000D27A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Social-Anxiety-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "COSC345.Social-Anxiety-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B48D3BF52116A61000D27A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Social-Anxiety-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "COSC345.Social-Anxiety-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Social-Anxiety-App.app/Social-Anxiety-App";
+			};
+			name = Debug;
+		};
+		B48D3BF62116A61000D27A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Social-Anxiety-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "COSC345.Social-Anxiety-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Social-Anxiety-App.app/Social-Anxiety-App";
+			};
+			name = Release;
+		};
+		B48D3BF82116A61000D27A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Social-Anxiety-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "COSC345.Social-Anxiety-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Social-Anxiety-App";
+			};
+			name = Debug;
+		};
+		B48D3BF92116A61000D27A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Social-Anxiety-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "COSC345.Social-Anxiety-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Social-Anxiety-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B48D3BC12116A60A00D27A1D /* Build configuration list for PBXProject "Social-Anxiety-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48D3BEF2116A61000D27A1D /* Debug */,
+				B48D3BF02116A61000D27A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B48D3BF12116A61000D27A1D /* Build configuration list for PBXNativeTarget "Social-Anxiety-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48D3BF22116A61000D27A1D /* Debug */,
+				B48D3BF32116A61000D27A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B48D3BF42116A61000D27A1D /* Build configuration list for PBXNativeTarget "Social-Anxiety-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48D3BF52116A61000D27A1D /* Debug */,
+				B48D3BF62116A61000D27A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B48D3BF72116A61000D27A1D /* Build configuration list for PBXNativeTarget "Social-Anxiety-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48D3BF82116A61000D27A1D /* Debug */,
+				B48D3BF92116A61000D27A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B48D3BD02116A60B00D27A1D /* Social_Anxiety_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B48D3BD12116A60B00D27A1D /* Social_Anxiety_App.xcdatamodel */,
+			);
+			currentVersion = B48D3BD12116A60B00D27A1D /* Social_Anxiety_App.xcdatamodel */;
+			path = Social_Anxiety_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B48D3BBE2116A60A00D27A1D /* Project object */;
+}
